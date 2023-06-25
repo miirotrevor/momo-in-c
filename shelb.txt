@@ -1,0 +1,72 @@
+#include <stdio.h>
+int option;
+int main() {
+    printf("AirtelMoney\n");
+    printf("1| send money\n");
+    printf("2| buy airtime\n");
+    printf("3| withdraw cash\n");
+    scanf( "%d",&option);
+
+// introducing switch statement
+switch(option){
+case 1:
+printf("you have chosen option 1, send money\n");
+printf("1| send to airtel\n");
+printf("2| another number\n");
+scanf("%d",&option);
+
+if (1){
+printf("enter number\n");
+scanf("%d",&option);
+printf("enter amount\n");
+scanf("%d",&option);
+printf("enter pin\n");
+scanf("%d",&option);
+}
+break;
+case 2:
+printf("you have choosen option 2 , buy airtime\n\n");
+printf("1: buy for self\n");
+printf("2: buy for another number\n");
+scanf("%d",&option);
+if (2)
+{
+    // printf("1 :buy for my self\n");
+    printf("enter the number\n");
+    scanf("%d",&option);
+    printf("enter amount\n");
+    scanf("%d",&option);
+    printf("enter pin :");
+    scanf("%d",&option);
+    }
+
+    
+
+
+break;
+case 3:
+printf("you have chosen option 3, withdraw money");
+break;
+
+
+
+ default:
+ printf("invalid input chose from the above\n");
+
+
+
+
+}
+
+
+
+
+
+
+
+return 0;
+
+}
+
+
+ 
